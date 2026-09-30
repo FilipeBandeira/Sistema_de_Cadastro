@@ -5,7 +5,7 @@
 
 class Gerente : public Funcionario {
 private:
-    float bonusMensal;
+    float bonusMensal = 0.0f;
 
 public:
     void setBonusMensal(float b);

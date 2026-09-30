@@ -7,7 +7,7 @@ void Desenvolvedor::setQuantidadeDeProjetos(int q) {
 }
 
 float Desenvolvedor::calcularSalarioFinal() {
-    return salarioBase + (500 * quantidadeDeProjetos);
+    return salarioBase + (500.0f * quantidadeDeProjetos);
 }
 
 void Desenvolvedor::exibirInformacoes() {

@@ -7,10 +7,10 @@ using namespace std;
 class Funcionario {
 protected:
     string nome;
-    float salarioBase;
+    float salarioBase = 0.0f;
 
 private:
-    int id;
+    int id = 0;
 
 public:
     void setNome(string nome);

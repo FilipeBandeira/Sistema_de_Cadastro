@@ -5,7 +5,7 @@
 
 class Estagiario : public Funcionario {
 private:
-    int horasTrabalhadas;
+    int horasTrabalhadas = 0;
 
 public:
     void setHorasTrabalhadas(int h);

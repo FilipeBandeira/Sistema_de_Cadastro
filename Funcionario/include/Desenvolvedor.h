@@ -5,7 +5,7 @@
 
 class Desenvolvedor : public Funcionario {
 private:
-    int quantidadeDeProjetos;
+    int quantidadeDeProjetos = 0;
 
 public:
     void setQuantidadeDeProjetos(int q);
